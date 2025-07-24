@@ -17,5 +17,5 @@ public abstract class Person {
         return age;
     }
 
-    public abstract void introduce();
+    public abstract void introduce() ;
 }

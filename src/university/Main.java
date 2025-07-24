@@ -16,7 +16,7 @@ public class Main {
         people.add(new Employee("Mr.Omar", 39, "Engineering"));
 
 
-        System.out.println("Introductions:");
+        System.out.println("Introductions :");
         for (Person p : people) {
             p.introduce();
         }

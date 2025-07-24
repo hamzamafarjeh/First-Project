@@ -10,6 +10,6 @@ public class Employee extends Person{
 
     @Override
     public void introduce() {
-        System.out.println("Hello, I'm " + getName() + ", working in the " + department + " department");
+        System.out.println("Hello, I'm " + getName() + ", I'm working in the " + department + " department");
     }
 }

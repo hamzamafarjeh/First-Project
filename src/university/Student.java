@@ -10,6 +10,6 @@ public class Student extends Person {
 
     @Override
     public void introduce() {
-        System.out.println("Hi, I'm " + getName() + ", studying " + major + ".");
+        System.out.println("Hi, I'm " + getName() + ", I'm studying " + major + ".");
     }
 }
