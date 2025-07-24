@@ -10,20 +10,6 @@ public class Employee extends Person{
 
     @Override
     public void introduce() {
-        System.out.println("I'm an employee named " + getName() + ", working in the " + department + " department.");
-    }
-
-    public void work() {
-        System.out.println(getName() + " works in the " + department + " department.");
-    }
-
-    public String getDepartment() {
-        return department;
-    }
-
-    public void setDepartment(String department) {
-        if (department != null && !department.isEmpty()) {
-            this.department = department;
-        }
+        System.out.println("Hello, I'm " + getName() + ", working in the " + department + " department");
     }
 }
