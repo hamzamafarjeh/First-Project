@@ -1,15 +1,12 @@
 package university;
 
 public class Student extends Person {
-    private String major;
-
-    public Student(String name, int age, String major) {
+    public Student(String name, int age) {
         super(name, age);
-        this.major = major;
     }
 
     @Override
     public void introduce() {
-        System.out.println("Hi, I'm " + getName() + ", I'm studying " + major + ".");
+        System.out.println("Hi, I'm student " + name + ", I'm " + age + " years old.");
     }
 }

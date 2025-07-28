@@ -1,15 +1,12 @@
 package university;
 
 public class Employee extends Person{
-    private String department;
-
-    public Employee(String name, int age, String department) {
+    public Employee(String name, int age) {
         super(name, age);
-        this.department = department;
     }
 
     @Override
     public void introduce() {
-        System.out.println("Hello, I'm " + getName() + ", I'm working in the " + department + " department");
+        System.out.println("Hello, I'm employee " + name + ", I'm " + age + " years old.");
     }
 }
